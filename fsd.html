@@ -7,62 +7,53 @@
     <title>Document</title>
 </head>
 <style>
-    body {
-    background-color: Black;
+    body{
+        background-color: lightslategrey;
     }
     h1 {
-        color: green;
-        align: center;
-        margin: 50px;
-        text-align: center;
-    }
-    p {
-        color: white;
-        background-color: blue;
-        margin: 10px;
-        padding: 10px;
-        border: solid white 3px;
-        height: 30px;
-        width: 200px;
-        text-align: center;
-        font-family: Courier; 
-        font-size: 20px;
-        float: left;
-    }
-    div {
-        color: White;
-        background-color: DarkRed;
-        margin: 10px;
-        padding: 10px;
-        border: dashed Pink 3px;
-        text-align: left;
-        width: 200px;
-        height: 30px;
-        font-family: Courier;
-        font-size: 20px;
-        float: left;
-        clear: right;
-    }
-    div.test1 {
-        color:blue;
-        background-color: DarkGray;
-        margin: 10px;
-        padding: 10px;
-        border: double;
-        width: 200px;
-        height: 40px;
-        text-align: right;
-        font-family: Courier;
-        font-size:20px;
-        float: left;
-        clear: left;
-    }
-    </style>
+	color: green;
+	align: center;
+	margin: 50px;
+	text-align: center;
+}
+p {
+	color: white;
+	background-color: blue;
+	margin: 10px;
+	padding: 10px;
+	border: solid white 3px;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	font-family: Courier; 
+	font-size: 20px;
+	float: left;
+}
+div {
+	color: White;
+	background-color: DarkRed;
+	margin: 10px;
+	padding: 10px;
+	border: dashed Pink 3px;
+	text-align: left;
+	width: 200px;
+	height: 30px;
+	font-family: Courier;
+	font-size: 20px;
+	float: left;
+	clear: right;
+}
+</style>
 <body>
     <h1>tester litt rundt</h1>
-<p> paragraf test </p>
+<p onclick="tester"> paragraf test </p>
 <div> Normal Div test </div>
 <div class="test1"> annen type div test </div>
-
+<script>    
+function tester() {
+    alert('flere tester');
+    alert('så gøy')
+}
+</script>
 </body>
 </html>
